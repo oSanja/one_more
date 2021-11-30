@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Frontend</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Swan">
+        <meta name="description" content="My first page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> This is <span>page!</span></h1>
+        <p> It is pretty plain.</p>
+         <h1>Mostly black and white and grey.</h1>
+         <h2>Basic HTML</h2>
+
+         <p>Visit my <a href="https://github.com/oSanja/oSanja"target="_blank">Github profile</a></p>
+         <p>Get in touch, <a href="123@email.com">send a msg</a></p>
+    
+        <h1 id="top">START HERE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+
+         <p><a href="#top">povratak</a></p>
+
+         <pre>
+             &lt;!DOCTYPE html&gt;
+             <html>
+                 <head></head>
+                 <body>
+                     Lorem ipsum
+                 </body>
+             </html>          
+         </pre>
+
+         <h1>TABLES</h1>
+         <table border="1">
+             <thead>
+                 <tr>
+                     <th>Proizvod</th>
+                     <th>Količina</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>kokos</td>
+                     <td>1 vrećica</td>
+                 </tr>
+                 <td>čokolada</td>
+                 <td>3 kom</td>
+             </tr>
+         </tbody>
+         <tfoot>
+            <td>čokolada</td>
+            <td>3 kom</td>
+         </tfoot>
+    </table>
+
+    <table border="1px solid #333">
+        <tr>
+            <thead>
+                 <td>jedan</td>
+                 <td>dva</td>
+                 <td>tri</td>
+             </thead>
+             <tbody>
+                 <td>1</td>
+                 <td>2</td>
+                 <td>3</td>
+             </tbody>
+             <tfoot>
+                 <td>one</td>
+                 <td>two</td>
+                 <td>three</td>
+             </tfoot>
+        </tr>
+    </table>
+
+    <h2>Raspored sati za 7 razred</h2>
+    <table border="1"
+         <thead>
+             <tr>
+                <th>#</th>
+                <th>PON</th>
+                 <th>UTO</th>
+                 <th>SRI</th>
+                 <th>ČET</th>
+                 <th>PET</th>
+             </tr>
+         </thead>
+     </table>
+
+     <table border="1">
+     <tr>
+         <td>#</td>
+         <td>Pon</td>
+         <td>uto</td>
+         <td>sri</td>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td rowspan="2">Matematika</td>
+
+     </tr>
+    </table>
+
+         <img src="./Images/HTML5_logo_and_wordmark.svg" alt="HTML5_image" height="150">
+         <img src="./Images/CSS3_logo.svg" alt="CSS_image" height="150">
+         <img src="./Images/Unofficial_JavaScript_logo_2.svg" alt="JS_image" height="150">
+         <img src="https://st.depositphotos.com/2172759/4408/v/380/depositphotos_44084877-stock-illustration-cartoon-adorable-cat-face-isolated.jpg" alt="Cat_image" height="150">
+
+
+         <ul>
+             <li>HTML is not boring</li>
+             <li>HTML is short for  HyperText Markup Language</li>
+         </ul>
+
+         <ol>
+            <li>html</li>
+            <li>head</li>
+            <li>body</li>
+         </ol>
+
+         <dl>
+             <dt>HTML</dt>
+             <dd>standard markup language</dd>
+             <dt>METADATA </dt>
+             <dd>Set of data that describes and gives information about other data</dd>
+         </dl>
+
+         <h2>Inline text elements</h2>
+         <p><strong>This is important.</strong>This is not, <em>but it can be useful.</em></p>
+         <p><mark>This is barely here.</mark></p>
+         <p><i>But since it is yellow, it is also important</i></p>
+         <p><sup>and what is this?</sup></p>
+         <p><del>nothing</del></p>
+         <ul>
+             <li>strong - this is important</li>
+             <li>em - this is useful</li>
+             <li>small - this is not important, but nice to have</li>
+         </ul>
+         <ol>
+             <li>If the content is important and good to know, use strong</li>
+             <li>If the content is good to know, use em</li>
+             <li>If the content is not important, but nice to have, use small</li>
+         </ol>
+         <dl>
+             <dt>strong</dt>
+             <dd>Used for important text.</dd>
+             <dt>em</dt>
+             <dd>Used for good to know text</dd>
+             <dt>small</dt>
+             <dd>Used for footer text.</dd>
+
+
+         </dl>
+
+    <h2>FORMS</h2>
+    <h3>Search form Ecosia</h3>
+
+         <form action="https://www.ecosia.org/search?" method="get">
+             <label for="q">Search</label>
+             <input id="q" type="text" name="q">
+             <button>Go!</button>
+         </form>
+
+         <h3>Search form DuckDuckGo</h3>
+
+         <form action="https://duckduckgo.com/?" method="get" target="_blank">
+             <label>Search</label>
+             <input type="text" name="q">
+             <button>Go!</button>
+         </form>
+
+        <h3>Search form Bing</h3>
+
+        <form action="https://www.bing.com/search?" method="get" autocomplete="off">
+            <label>Search</label>
+            <input type="text" name="q">
+            <button>Tell me</button>
+        </form>
+
+        <h3>Login form</h3>
+        <form action="">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="pass" placeholder="Pass" minlength="8" required>
+            <button type="submit">Sign In</button>
+        </form>
+
+        <h3>Age gate form</h3>
+        <form action="">
+            <select name="Day" id="date">
+                <option value="" disabled selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+        
+            <select name="month" id="month">
+                <option value=""disabled selected>Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+
+            <select name="Year" id="year">
+                <option value="" disabled selected>Year</option>
+                <option value="1">2021</option>
+                <option value="2">2020</option>
+                <option value="3">2019</option>
+                <option value="4">2018</option>
+                <option value="5">2017</option>
+                <option value="6">2016</option>
+                <option value="7">2015</option>
+                <option value="8">2014</option>
+                <option value="9">2013</option>
+                <option value="10">2012</option>
+                <option value="11">2011</option>
+            </select>
+            <button type="submit">Let me in!</button>
+            
+        </form>
+
+<h3>Survey form</h3>
+<form action="">
+    <p>Dobro se snalazim u HTML. (1-u potpunosti se slažem, 5-u potpunosti se ne slažem)</p>
+    <label><input type="radio" name="answer" value="1"> 1</label>
+    <label><input type="radio" name="answer" value="2"> 2</label>
+    <label><input type="radio" name="answer" value="3" checked> 3</label>
+    <label><input type="radio" name="answer" value="4"> 4</label>
+    <label><input type="radio" name="answer" value="5"> 5</label>
+</form>
+ 
+<h3>Newsletter form</h3>
+<form action="">
+    <label for="Emilija">E-mail: </label><input type="email" id="Emilija" name="email" placeholder="Email" required>
+
+    <p>Pick your newsletter topics: </p>
+
+   <p><label><input type="checkbox" name="newsletter topic" value="Music">Music</label></p>
+   <p><label><input type="checkbox" name="newsletter topic" value="Visual Arts">Visual Arts</label></p>
+   <p><label><input type="checkbox" name="newsletter topic" value="Film">Film</label></p>
+   <p><label><input type="checkbox" name="newsletter topic" value="Dance">Dance</label></p>
+    <button type="submit">Sign me up!</button>
+    
+</form>
+
+<h3>Food order form</h3>
+<form action="">
+<p><label for="full_name">Ime i prezime*:</label><input type="full_name" id="full_name" name="full_name" placeholder="Ime i prezime" required></p>
+<p><label for="phone">Broj telefona*:</label><input type="phone" id="phone" name="phone" placeholder="Broj telefona" required></p>
+<p><label for="address">Adresa*:</label><input type="address" id="address" name="address" placeholder="Adresa" required></p>
+<label>Vrijeme dostave</label>
+    <form action="">
+    <input type="time" id="delivery_time" required>
+
+    </select>
+
+    <p>
+        <label for="Hrana">Hrana:</label><input list="Food-recommendations-list"></p>
+    <datalist id="Food-recommendations-list">
+        <option value="Classic Hamburger">100% mljevena junetina, salata i ostatak</option>
+        <option>Wrap</option>
+        <option>Čokolino</option>
+        <option>Ćevapi</option>
+        <option>Pizza</option>
+        <option>Zagrebački odrezak</option>
+        <option>Palenta</option>
+        <option>Wrap</option>
+    </datalist>
+    <p>Dodaci:</p>
+       
+    <p><label><input type="checkbox" name="dodaci" value="garlic">Garlic</label></p>
+    <p><label><input type="checkbox" name="dodaci" value="more salad">More salad</label></p>
+    <p><label><input type="checkbox" name="dodaci" value="bread">Bread</label></p>
+    <p><label><input type="checkbox" name="dodaci" value="avocado">Avocado</label></p>
+
+    <p>Beskontaktna dostava</p>
+    <label><input type="radio" name="answer" value="yes"> Yes</label>
+    <label><input type="radio" name="answer" value="no"> No</label>
+    <p><label for="komentar">Komentar</label></p>
+    <textarea name="" id="" cols="30" rows="5" maxlength="250"></textarea>
+
+
+    <p><button>Submit order</button></p>
+
+    
+
+
+</form>
+        </body>
+</html>
+
