@@ -6,16 +6,14 @@
         <meta name="author" content="Swan">
         <meta name="description" content="My first page">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            #video {
-                color: #b00000;
-            }
-            body {
-                color: rgb(255, 0, 170);
-            }
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" />
+<link href="prism.css" rel="stylesheet" />
     </head>
     <body>
+        <div class="wrapper">
         <h1> This is <span>page!</span></h1>
         <p> It is pretty plain.</p>
          <h1>Mostly black and white and grey.</h1>
@@ -32,13 +30,15 @@
          <p><a href="#top">povratak</a></p>
 
          <pre>
+             <code class="language-html">
              &lt;!DOCTYPE html&gt;
-             <html>
-                 <head></head>
-                 <body>
-                     Lorem ipsum
-                 </body>
-             </html>          
+             &lt;html&gt;
+                 &lt;head&gt;&lt;/head&gt;
+                     &lt;body&gt;
+                       Lorem ipsum
+                &lt;/body&gt;
+            &lt;/html&gt;
+            </code>        
          </pre>
 
          <h1>TABLES</h1>
@@ -330,10 +330,10 @@
 
     <p><button>Submit order</button></p>
 
-    
-
-
 </form>
+
+<script src="prism.js"></script>
+</div>
     </body>
 </html>
 

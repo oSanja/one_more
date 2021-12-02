@@ -1,0 +1,23 @@
+          
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: medium;
+    color: #6B0504;
+    background-color: #D5E68D;
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 20;
+}
+h1 {
+    color: #241023;
+}
+h2 {
+    color: #241023;
+}
+
+
+.wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
