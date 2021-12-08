@@ -1,0 +1,9 @@
+html { font-size: 16px; } /* 1rem je 15px, mjerna jedinica*/
+body {font-size: 1rem; font-family: 'Quicksand', sans-serif;}
+.p { font-size: 2rem; font-weight: 300; color: rgb(86, 72, 209);}
+.naslov6 { font-size: 1rem;}
+.naslov5 { font-size: 1.33rem;}
+.naslov4 { font-size: 1.66rem;}
+.naslov3 { font-size: 2rem;}
+.naslov2 { font-size: 2.33rem;}
+.naslov1 { font-size: 2.66rem;}

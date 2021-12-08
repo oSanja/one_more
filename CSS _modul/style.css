@@ -1,0 +1,76 @@
+/*
+Selektor po elementu
+*/
+p {
+    color: seagreen;
+}
+
+/*Selektor po class*/
+.important {
+    color: red;
+}
+
+/*Selektor po ID*/
+#Intro {
+    color: rgb(238, 255, 0);
+}
+
+#Intro::first-letter {
+    font-size: 50px;
+}
+
+[target="blank"] {
+    color: violet;
+} 
+[href^="mailto:"] {
+    color: rgb(64, 224, 91);
+}
+
+[target="blank"]::after {
+    content: "(External link)";
+    color: rgb(204, 0, 250);
+}
+
+/*hover: CSS će sve a elemente staviti u ovu boju kad hoveramno preko njih*/
+/*bitan je redoslijed*/
+a:hover {
+    color: wheat;
+}
+a:visited {
+    color: rgb(255, 0, 191) ;
+}
+p:first-of-type {
+    background-color: rgb(63, 37, 13);
+}
+/*pseudo-klase, koji child u odnosu na roditelja*/
+/*paragraf, ali treći child*/
+p:nth-child(3) {
+color: salmon;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(248, 218, 255);
+}
+
+
+/*kombinatori*/
+/*linkovi koji su u listama, li pa onda a*/
+li a {
+    font-size: 20px;
+}
+
+/* > je child selector, dakle označava izravne childeove List Item elementa*/
+li > a {
+    font-size: 50px;
+}
+
+/*selektira prvog susjeda (siblinga) do li*/
+li + li {
+    background-color: rgb(229, 255, 0);
+}
+
+/**/
+li:nth-child(2) ~ li {
+    background-color: mediumblue;
+    color: mintcream;
+}
