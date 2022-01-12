@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import "./Styles/cookies";
+
 html { font-size: 16px; } /* 1rem je 16px, mjerna jedinica*/
 body {font-size: 1rem; 
     font-family: 'Quicksand', sans-serif;
@@ -116,33 +118,6 @@ h1, .h1 {
 }
 }
 
-.cookies {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight:lighter;
-    background-color: rgb(230, 230, 230);
-    padding: 16px;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.buttons {
-    text-decoration: underline;
-    cursor: pointer;
-    padding-left: 10px;
-}
-
-.yes {
-    font-weight: 900;
-}
-
-.buttons:hover {
-    color: rgba(0, 255, 0, 1);
-}
-
 .profile-image {
     display: block;
     width: 300px;
@@ -191,7 +166,7 @@ h1, .h1 {
         border: 2px solid rgb(95, 0, 0)
 
     }
-    .project-title {}
+   
     .project-descrtiption {
         margin: 8px 0;
     }
@@ -312,9 +287,7 @@ h1, .h1 {
     padding: 8px 16px;
 
 }
-.navigation-item a {
-    
-}
+
 
 .bg-color-black {
 background: black;
