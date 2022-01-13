@@ -1,0 +1,18 @@
+.navigation {
+    display: flex;
+    flex-flow: row-wrap;
+    margin: 0;
+    padding: 0;
+    justify-content:space-around;
+    /*po glavnoj osi*/
+    align-items: center;
+    /*po poprečnoj osi*/
+    height: 80px;
+}
+
+.navigation-item {
+display: block;
+background-color: darkcyan;
+padding: 8px 16px;
+
+}

@@ -10,18 +10,18 @@
     padding: 16px;
     box-sizing: border-box;
     display: inline-block;
-}
+    
+    .buttons {
+        text-decoration: underline;
+        cursor: pointer;
+        padding-left: 10px;
 
-.buttons {
-    text-decoration: underline;
-    cursor: pointer;
-    padding-left: 10px;
-}
+        &.yes {
+            font-weight: 900;
+        }
 
-.yes {
-    font-weight: 900;
-}
-
-.buttons:hover {
-    color: rgba(0, 255, 0, 1);
+        &:hover{
+            color: rgba(0, 255, 0, 1);
+        }
+    }
 }

@@ -1,0 +1,78 @@
+.project {
+    display: block;
+    width: 100%;
+    background: white;
+    color: rgb(95, 0, 0);
+    padding: 16px;
+    border-style: double;
+    border: 2px solid rgb(95, 0, 0)
+
+}
+
+.project-descrtiption {
+    margin: 8px 0;
+}
+.project-link {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(95, 0, 0);
+    /*padding je x- lijevo desno, y-gore dolje*/
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 12px 16px;
+    bottom: 0;
+    transition:
+        bottom 0.3s ease,
+        background-color 0.3s ease 0.3s;
+}
+
+.project-link:hover {
+    background-color: blueviolet;
+    text-decoration: underline;
+    bottom: 4px;
+}
+
+.project-link_1 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 123, 0);
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 12px 16px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+
+}
+
+.project-link_1:hover {
+    background-color: rgb(65, 31, 0);
+    transform: rotate(180deg);
+    width: 130px;
+
+}
+.project-technology-list {
+    margin: -4px 0;
+    padding: 0px;
+}
+
+.project-technology-list li {
+    display: inline-block;
+    background-color: rgb(7, 6, 4);
+    padding: 4px 8px;
+    color: chocolate;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+.project-technology-list li:last-child {
+    margin-right: 0px;    
+}

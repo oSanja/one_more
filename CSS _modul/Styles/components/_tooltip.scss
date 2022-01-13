@@ -1,0 +1,18 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-message {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: rgba(238,95,250,0.4);
+    color: white;
+    font-size: 1rem;
+}
+
+.tooltip:hover .tooltip-message {
+    display: inline-block;
+}

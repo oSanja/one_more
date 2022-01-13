@@ -1,0 +1,52 @@
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* animation-fill-mode: forwards/backwards/both*/
+  /*    animation: blink (blink) 0.5s (trajanje) ease-in-out () 0s (odgoda izmedu animacija) infinite (puta) alternate forwards (vracanje);*/
+  .blinking {
+      animation: blink 0.5s ease-in-out 0s infinite alternate forwards;
+  }
+  
+  @keyframes crazy-ball {
+      0% {
+          transform: rotate(0turn)
+      }
+      50% {
+          transform: rotate(1);
+      }
+      100% {
+          transform: rotate(-1turn);
+      }
+  }
+  
+  .crazy-ball {
+      animation: crazy-ball 2s ease 0s 1 forwards;
+      width: 100px;
+  
+  }
+  
+  @keyframes crazy-second-ball {
+      0% {
+          opacity: 0;
+          transform: translatex(-100%) scale(0%);
+  
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translatex(0) scale(100%);
+      }
+  }
+  
+  .crazy-second-ball {
+      animation: crazy-second-ball 2s ease 0s 1 forwards;
+      width: 150px;
+  }
+  
